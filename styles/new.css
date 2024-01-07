@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
 }
 header{
    display: flex;
@@ -161,10 +162,11 @@ font-weight: 600;
 }
   /* footer styles */
   footer{
+    padding-top: 45px;
     display: flex;
- /* max-width: 1600px;
- height:500px;
-   margin:0 auto; */
+  max-width: 1600px; 
+ height:500px; 
+  
     background-color:#151414 ;
     justify-content: space-around;
   }
