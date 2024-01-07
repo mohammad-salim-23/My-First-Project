@@ -1,1 +1,201 @@
+*{
+    box-sizing: border-box;
+}
+header{
+   display: flex;
+    background-image: url('../images/banner/banner3.png'); 
+    color: #005FAC;
+    text-align: right;
+    background: cover;
+    margin:0 auto;
+    padding:0;
+     background-size: cover;
+     max-width: 1600px;
+  
+     background-repeat: no-repeat;
+     height: 808px;
+    /* height: 100vh; */
+    
+    justify-content: space-between;
+    
+}
+.banner{
+    text-align: right;
+}
+.header-title{
+    color: #FFF;
+/* text-align: right; */
+font-size: 60px;
+margin-left: 845px;
+margin-right: 10px;
 
+margin-top: 200px;
+margin-bottom: 24px;
+
+}
+.header-text{
+    color: #FFF;
+
+font-size: 16px;
+
+margin-right: 10px;
+font-weight: 400;
+line-height: 26px; 
+}
+ .banner .btn-primary{
+    color: #005FAC;
+/* text-align: right; */
+margin-left:800px ;
+font-size: 20px;
+font-weight: 600;
+border-radius: 5px;
+background: #FFF;
+margin-right: 10px;
+
+}
+/*main style */
+.column-add{
+    display: flex;
+}
+.column1{
+    margin-top: 140px;
+    margin-right: 134px;
+    padding-left: 150px;
+}
+.column2{
+    margin-top: 370px;
+}
+.column2-title{
+    color:  #151414;
+
+font-size: 40px;
+font-weight: 700;
+margin-bottom:24px;
+
+}
+.column2-para{
+    color:  #444343;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+ 
+}
+.checkbox-style{
+    color:  #444343;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+.center{
+   text-align: center;
+}
+.plans{
+    color: var(--Dark-01, #151414);
+text-align: center;
+  margin-left: 200px;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.skill-container{
+    display: flex;
+    width: 1600px;
+margin-bottom:10px ;
+background: #FFF;
+margin-left: 294px;
+}
+.skill{
+    margin-top: 53px;
+    margin-right: 150px;
+}
+.skill-head{
+    color: var(--Dark-01, #151414);
+text-align: center;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.skill-text{
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.contact{
+    background-image: url('../images/watch.png');
+    max-width: 1140px;
+    height:300px;
+    margin-left:294px;
+    margin-bottom: 130px;
+   background-color:inear-gradient 90deg, #005FAC;
+}
+.contact-text{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 40px;
+margin-left:60px;
+font-style: normal;
+font-weight: 700;
+
+}
+.btn{
+    border-radius: 5px;
+background: #FFF;
+color: #005FAC;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+margin-left:60px;
+font-weight: 600;
+
+}
+  /* footer styles */
+  footer{
+    display: flex;
+ /* max-width: 1600px;
+ height:500px;
+   margin:0 auto; */
+    background-color:#151414 ;
+    justify-content: space-around;
+  }
+  .footer-column-head{
+    color: #F8F8F8;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+
+  }
+
+  .footer-text{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+
+font-weight: 400;
+
+  }
+  .social-links a{
+    margin-right:10px;
+  }
+  .footer-column input[type="email"]{
+    padding:15px, 25px, 15px ,5px;
+  }
+  .subscribe-button{
+    display:block;
+    margin-top: 16px;
+    border-radius: 8px;
+background: #005FAC;
+padding: 20px;
+
+  }
